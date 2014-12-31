@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>users</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/frontend.js"></script>
+  </head>
+  <body onload="exchangeCodeForAccessToken('{{refreshCode}}')">
+    <h1>Liking Photos...</h1><br>
+    <p>Close tab to stop</p>
+    <p id="notify"></p>
+  </body>
+</html>

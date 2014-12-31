@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LoveInstagram</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="script/javascript" href="javascripts/frontend.js">
+  </head>
+  <body>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script src="javascripts/frontend.js"></script>
+
+    <h1>Instagram App Credentials</h1><br>
+
+    Client Id: <input type="text" id="clientId"></input><br><br>
+    Client Secret: <input type="text" id="clientSecret"></input><br><br> 
+    Tags to Like: <input type="text" id="tags"></input>Example: Soccer, Football, Basketball<br><br>
+
+    <button type="button" id="submit" onClick="redirectUser()">Like Photos!</button>
+
+  </body>
+</html>
